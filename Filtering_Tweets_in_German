@@ -33,9 +33,9 @@ try:
                                 until=end_date,
                                 tweet_mode='extended',
                                 exclude_replies=True,
-#                                include_entities=False, #No such rule
-#                                include_retweets=True #Rule doesn't work
-#                                result_type='popular', #Rule doesn't work
+#                                include_entities=False, 
+#                                include_retweets=True 
+#                                result_type='popular', 
                                 ).items(30):
 #        if tweet.retweet_count > 140: #Doesn't work with filter:retweets
            results.append(tweet)
